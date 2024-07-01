@@ -2,25 +2,25 @@ export const skillsUsed = [
   { title: 'HTML5', img: './html.webp' },
   { title: 'CCS3', img: './css.webp' },
   { title: 'JavaScript', img: './js.webp' },
-  { title: 'Vite', img: './vite.webp' },
-  { title: 'VS Code', img: './vscode.webp' },
-  { title: 'Github', img: './github.webp' },
-  { title: 'Vercel', img: './vercel.webp' },
-  { title: 'Netlify', img: './netlify.webp' },
-  { title: 'Responsive', img: './responsive2.webp' },
-  { title: 'Git', img: './git.webp' }
-];
-
-export const skillsLearning = [
   { title: 'Node.js', img: './nodejs.webp' },
   { title: 'MongoDB', img: './mongodb.webp' },
   { title: 'API REST', img: './api.webp' },
+  { title: 'VS Code', img: './vscode.webp' },
+  { title: 'Git', img: './git.webp' },
+  { title: 'Github', img: './github.webp' },
+  { title: 'Vite', img: './vite.webp' },
+  { title: 'Vercel', img: './vercel.webp' },
+  { title: 'Netlify', img: './netlify.webp' },
+  { title: 'Responsive', img: './responsive2.webp' }
+];
+
+export const skillsLearning = [
   { title: 'React', img: './react.webp' },
   { title: 'Angular', img: './angular.webp' },
   { title: 'Next.js', img: './nextjs.webp' },
   { title: 'Figma', img: './figma.webp' },
   { title: 'TypeScript', img: './typescript.webp' },
-  // { title: 'Python', img: './python.webp' },
+  { title: 'Python', img: './python.webp' },
 ];
 
 export const skillsOther = [
