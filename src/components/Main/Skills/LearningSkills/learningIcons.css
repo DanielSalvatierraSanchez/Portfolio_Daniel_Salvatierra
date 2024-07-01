@@ -1,0 +1,52 @@
+.title-learning {
+  margin: 75px 0px 50px 0px;
+}
+
+.div-learning-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 75px;
+  max-width: 700px;
+}
+
+.img-learning-skills {
+  object-fit: contain;
+  width: 60px;
+  height: 60px;
+}
+
+.div-learning-skills > p {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ds-font-two);
+  gap: var(--ds-gap-xs);
+}
+
+
+/* MEDIA QUERIES */
+
+@media (width <= 760px) {
+  .div-learning-skills {
+    gap: 75px;
+    margin: 0 20px;
+    max-width: 700px;
+  }
+}
+
+@media (width <= 600px) {
+  .div-learning-skills {
+    gap: 50px;
+    max-width: 400px;
+  }
+}
+
+@media (width <= 470px) {
+  .div-learning-skills {
+    gap: 50px;
+    max-width: 250px;
+  }
+}

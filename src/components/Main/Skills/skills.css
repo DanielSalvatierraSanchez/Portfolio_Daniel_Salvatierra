@@ -1,0 +1,26 @@
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+  padding-top: var(--ds-padding-xl);
+}
+
+.title-skills {
+  display: flex;
+  flex-direction: column;
+  border: var(--ds-border-xxs) solid var(--ds-color-primary);
+  margin: 75px 0px 80px 0px;
+  padding: 15px 80px;
+  font-family: var(--ds-font-one);
+  letter-spacing: 10px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (width <= 470px) {
+  .title-skills {
+    padding: 15px 15px;
+  }
+}

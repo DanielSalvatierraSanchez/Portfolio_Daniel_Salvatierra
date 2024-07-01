@@ -1,0 +1,33 @@
+.li-ul-nav-header {
+  display: flex;
+  gap: 75px;
+}
+
+.link-nav {
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--ds-color-secondary);
+  font-family: var(--ds-font-one);
+  font-size: large;
+  transition: all 1s;
+}
+
+.link-nav:hover {
+  transition: all 0.5s;
+  transform: scale(1.2);
+}
+
+
+/* MEDIA QUERIES */
+
+@media (width <= 1025px) {
+  .li-ul-nav-header {
+    gap: 50px;
+  }
+}
+
+@media (width <= 426px) {
+  .li-ul-nav-header {
+    gap: 90px;
+  }
+}

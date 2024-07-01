@@ -1,0 +1,56 @@
+.article-projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--ds-background-secondary);
+  border-radius: var(--ds-border-m);
+  gap: var(--ds-gap-m);
+  transition: all 1s;
+}
+
+.article-projects:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.img-project {
+  width: 350px;
+  height: 250px;
+  border-radius: var(--ds-border-m);
+  object-fit: cover;
+}
+
+.title-project {
+  display: flex;
+  font-size: x-large;
+  font-family: var(--ds-font-two);
+}
+
+.text-project {
+  color: var(--ds-color-tertiary);
+  display: flex;
+  font-size: medium;
+  font-family: var(--ds-font-two);
+  max-width: 300px;
+}
+
+.links-project {
+  display: flex;
+  gap: 80px;
+}
+
+.github-img-project, .web-img-project {
+  width: 40px;
+  height: 40px;
+  margin-bottom: var(--ds-margin-s);
+  transition: all 1s;
+}
+
+.github-img-project:hover, .web-img-project:hover {
+  width: 40px;
+  height: 40px;
+  margin-bottom: var(--ds-margin-xs);
+  transform: scale(1.3);
+  transition: all 0.5s;
+}

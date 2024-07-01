@@ -1,0 +1,69 @@
+.button-open, .button-close, .nav-menu {
+  display: none;
+}
+
+@media (width <= 850px) {
+  .button-open {
+    display: block;
+    position: absolute;
+    right: 0;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 1s;
+  }
+
+  .button-open:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+  }
+
+  .button-close {
+    display: block;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 1s;
+  }
+
+  .button-close:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+  }
+
+  .img-open, .img-close {
+    width: 50px;
+    height: 50px
+  }
+  
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: var(--ds-gap-l);
+    position: absolute;
+    padding: var(--ds-padding-m);
+    top: 0;
+    right: 0;
+    background: linear-gradient(180deg, #edf6f9 0%, #006d77 100%);
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 0 100vmax #00000062;
+    border-radius: 100px 0px 0px 50px;
+    transition: all 0.5s;
+  }
+
+  .nav-menu.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .link-nav {
+    margin: var(--ds-margin-s);
+  }
+}

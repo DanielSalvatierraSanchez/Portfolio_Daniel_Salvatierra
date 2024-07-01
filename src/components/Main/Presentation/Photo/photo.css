@@ -1,0 +1,50 @@
+.photo-personal {
+  width: 550px;
+  height: 650px;
+  margin: 150px 50px 0px 50px;
+  border-radius: 20%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1941px) {
+  .photo-personal {
+    width: 650px;
+    height: 750px;
+    margin: 150px 50px 0px 250px;
+  }
+}
+
+@media (width <= 1600px) {
+  .photo-personal {
+    width: 450px;
+    height: 550px;
+    margin: 220px 50px 0px 0px;
+  }
+}
+/* modificado el margin */
+@media (width <= 1350px) {
+  .photo-personal {
+    width: 350px;
+    height: 450px;
+    margin: 250px 50px 0px 0px;
+  }
+}
+
+@media (width <= 1165px) {
+  .photo-personal {
+    width: 350px;
+    height: 450px;
+    margin: 0px;
+  }
+}
+
+@media (width <= 600px) {
+  .photo-personal {
+    width: 250px;
+    height: 350px;
+  }
+}
