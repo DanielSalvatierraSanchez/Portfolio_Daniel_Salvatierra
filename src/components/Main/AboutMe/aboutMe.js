@@ -1,7 +1,6 @@
 import './aboutMe.css';
 import { data } from "../../../../utils/data.js";
 
-// crear function del About Me y crear event
 export const AboutMe = () => {
   const sectionAboutMe = document.createElement('section');
   sectionAboutMe.id = 'aboutme';
@@ -14,7 +13,6 @@ export const AboutMe = () => {
   main.appendChild(sectionAboutMe);
   sectionAboutMe.append(titleAboutMe, textAboutMe);
 
-  // crear event para cambiar idioma
   textAboutMe.addEventListener('mouseover', () => {
     titleAboutMe.textContent = 'ABOUT ME';
     textAboutMe.textContent = data.aboutMeEn;

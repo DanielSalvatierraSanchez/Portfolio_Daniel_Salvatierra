@@ -4,7 +4,6 @@ export const data = {
   name: "Daniel Salvatierra",
   email: "dss250583@gmail.com",
   photo: "./daniel_short.webp",
-  photoFake: "./shrek.webp",
   value: "Soy una persona apasionada del mundo IT y en el cual conseguido significativos logros, todo ello gracias a mi CONSTANCIA, PERSEVERANCIA, ENTREGA, PASIÓN... ¡Si quieres tener un gran equipo, sin duda, yo debo de formar parte de él! ¡Contáctame y estaré encantado de demostrártelo!",
   valueEn: "I´m a person passionate about the IT world and in which I´ve achieved significant achievements, all thanks to my PERSEVERANCE, DEDICATION, PASSION... If you want to have a great team, without a doubt, I must be part of it! Contact me and I'll be happy to show you!",
   aboutMe: "Un apasionado del mundo IT, puedo decir que gracias a mi pasión por él y también a mi constancia, mi perseverancia, mis ganas de aprender y de ir a más, he podido trabajar en un gran equipo y llegar a liderarlo, soy muy resolutivo, acostumbrado a trabajar bajo presión y con una gran exigencia. Soy una persona muy risueña, amigable, me encanta estar en familia y amigos, montar en bicicleta, el campo y la montaña.",

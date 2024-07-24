@@ -2,7 +2,6 @@ import './hello.css';
 import { data } from "../../../../../utils/data.js";
 import { education } from "../../../../../utils/education.js";
 
-// crear function para toda la parte del texto y crear event
 export const presentationHello = () => {
   const sectionPresentation = document.querySelector('#presentation');
   const articleHello = document.createElement('article');
@@ -19,7 +18,6 @@ export const presentationHello = () => {
   const ulPresentation = document.createElement('ul');
   ulPresentation.className = 'ul-presentation';
   
-  // crear bucle FOROF para crear Li y el resto de elementos y agregar propiedades
   for (const rrss of data.rrss) {
     const li = document.createElement('li');
     li.className = rrss.classLink
@@ -40,7 +38,6 @@ export const presentationHello = () => {
   sectionPresentation.appendChild(articleHello);
   articleHello.append(h2Presentation, h1Presentation, h3Presentation, ulPresentation, pPresentation);
 
-  // crear event para cambiar idioma
   articleHello.addEventListener('mouseover', () => {
     h2Presentation.textContent = data.introEn;
     pPresentation.textContent = data.valueEn;

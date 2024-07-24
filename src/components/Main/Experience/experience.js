@@ -29,7 +29,6 @@ export const Experience = () => {
   Customers();
   WorkExperience();
 
-  // crear event para cambiar idioma
   articleTraining.addEventListener('mouseover', () => {
     titleExperience.textContent = 'EXPERIENCE';
     titleTraining.textContent = 'Job training:';

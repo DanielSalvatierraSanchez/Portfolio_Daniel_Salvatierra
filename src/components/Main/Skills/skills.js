@@ -3,7 +3,6 @@ import { usedSkills } from "./UsedSkills/usedIcons.js";
 import { learningSkills } from './LearningSkills/learningIcons.js';
 import { otherSkills } from "./OtherSkills/otherIcons.js";
 
-// crear Skills y crear event
 export const Skills = () => {
   const sectionSkills = document.createElement('section');
   sectionSkills.id = 'skills';
@@ -26,7 +25,6 @@ export const Skills = () => {
   sectionSkills.appendChild(titleOther);
   otherSkills();
 
-  // crear event para cambiar idioma
   titleLearning.addEventListener('mouseover', () => {
     titleLearning.textContent = 'In learning process:';
     titleOther.textContent = 'Other skills:';

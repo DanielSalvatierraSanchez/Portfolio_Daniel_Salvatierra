@@ -1,7 +1,6 @@
 import './footer.css';
 import { data } from "../../../utils/data.js";
 
-// crear Footer
 export const Footer = () => {
   const footer = document.createElement('footer');
   footer.id = 'footer';

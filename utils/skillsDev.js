@@ -3,6 +3,7 @@ export const skillsUsed = [
   { title: 'CCS3', img: './css.webp' },
   { title: 'JavaScript', img: './js.webp' },
   { title: 'Node.js', img: './nodejs.webp' },
+  { title: 'Express.js', img: './express.webp' },
   { title: 'MongoDB', img: './mongodb.webp' },
   { title: 'API REST', img: './api.webp' },
   { title: 'VS Code', img: './vscode.webp' },
